@@ -1,0 +1,230 @@
+*{
+  font-family: sans-serif;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 10px;
+  margin-left: 3%;
+}
+
+/* Imágenes de la portada*/
+
+.pokeball {
+  width: 10%;
+}
+
+.pokeball img {
+  margin-top: 30%;
+  width: 100%;
+  padding: 5%;
+}
+
+ .logo {
+  width: 30%;
+}
+
+ .logo img {
+  width: 100%;
+  padding: 5px;
+}
+
+ .pokedexpic {
+  width: 10%;
+}
+
+ .pokedexpic img {
+  width: 100%;
+  padding: 5px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body {
+  background: url(https://p4.wallpaperbetter.com/wallpaper/933/827/743/pokemon-pixel-art-wallpaper-preview.jpg);
+  background-size: cover;
+}
+
+/* Caja principal */
+#content-box {
+  width: 1000px;
+  height: 500px;
+
+
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  background: url(https://cdn.pixabay.com/photo/2021/07/16/14/22/nintendo-switch-6470977_1280.png);
+  background-size: cover;
+  
+}
+
+/* Lado izquierdo */
+#pokemon-info {
+  width: 250px;
+  height: 500px;
+  text-align: center;
+}
+
+
+/*Lado derecho*/
+#pokemon-list {
+  margin-top: 10%;
+  margin-left: 28%;
+  width: 250px;
+  height: 300px;
+  font-size: 18px;
+  /* Scroll - Lo he puesto para que los nombres no se me desborden y permanezcan en la caja */
+  overflow-y: auto;
+}
+
+
+/* Caja con el nombre de los pokemon*/
+.pokemon-name {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #E1ECF3;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+#pokemon-info img {
+  margin-left: 100%;
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 45%;
+  background-color: #E1ECF3;
+}
+
+
+#pokemon-types {
+  margin-left: 100%;
+
+}
+
+
+/* Caja para los tipos de pokemon*/
+.type-box {
+  padding: 3px;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+
+/* TODOS LOS TIPOS QUE HAY*/
+
+.normal {
+  background-color: beige;
+  color: black;
+}
+
+.fire {
+  background-color: orange;
+  color: white;
+}
+
+.grass {
+  background-color: green;
+  color: white;
+}
+
+.water {
+  background-color: blue;
+  color: white;
+}
+
+.ice {
+  background-color: lightblue;
+  color: black;
+}
+
+.electric {
+  background-color: gold;
+  color: black;
+}
+
+.fighting {
+  background-color: darkred;
+  color: white;
+}
+
+.flying {
+  background-color: skyblue;
+  color: black;
+}
+
+.bug {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.ghost {
+  background-color: purple;
+  color: white;
+}
+
+.rock {
+  background-color: sienna;
+  color: white;
+}
+
+.ground {
+  background-color: burlywood;
+  color: black;
+}
+
+.steel {
+  background-color: silver;
+  color: black;
+}
+
+.dark {
+  background-color: darkgray;
+  color: white;
+}
+
+.psychic {
+  background-color: palevioletred;
+  color: white;
+}
+
+.fairy {
+  background-color: pink;
+  color: black;
+}
+
+.dragon {
+  background-color: teal;
+  color: white;
+}
+
+.poison {
+  background-color: darkviolet;
+  color: white;
+}
+
+
+
+/* Caja para la descripción del pokemon*/
+#pokemon-description {
+  margin-top: 3%;
+  margin-left: 100%;
+  width: 230px;
+  height: 130px;
+  background-color: #E1ECF3;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  padding: 2px;
+  font-size: 18px;
+ 
+}
+
