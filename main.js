@@ -1,9 +1,9 @@
-import { getPokemon } from "./getpokemon";
+import {pokedex, getPokemon } from "./getpokemon.js";
 
 
 // Creo una constante con el número de pokemon que quiero que se muestren 
 const allPokemon = 100; 
-var pokedex = {}; // se convierte en {1 : {"name" : "bulbasaur", "img" : url, "type" : ["grass", "poison"], "desc" : "...."} }
+
 
 //Esta función se utiliza cuando la ventana se abre 
 // Siempre que se llame a una función asincrona, la función debe ser también asíncrona 

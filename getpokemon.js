@@ -1,5 +1,6 @@
 // Obtengo la URL en función del número 
-export async function getPokemon(num){
+var pokedex = {}; // se convierte en {1 : {"name" : "bulbasaur", "img" : url, "type" : ["grass", "poison"], "desc" : "...."} }
+async function getPokemon(num){
     //Estoy pasando 1, agregará uno a la url y luego recuperaré los datos 
      let url = "https://pokeapi.co/api/v2/pokemon/" + num.toString();
 
@@ -32,3 +33,5 @@ export async function getPokemon(num){
 
  
 }
+
+export {pokedex, getPokemon};
