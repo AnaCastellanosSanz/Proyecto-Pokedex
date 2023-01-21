@@ -228,3 +228,13 @@ body {
  
 }
 
+
+
+@media (max-width: 600px) {
+
+  body{
+    transform: rotate(90deg);
+    
+  }
+  
+}
