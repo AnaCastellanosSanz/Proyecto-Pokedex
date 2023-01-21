@@ -236,5 +236,60 @@ body {
     transform: rotate(90deg);
     
   }
+  #content-box {
+    margin-left: 25%;
+    width: 600px;
+    height: 300px;
+  
+  
+    display: flex;
+  
+    background: url(https://cdn.pixabay.com/photo/2021/07/16/14/22/nintendo-switch-6470977_1280.png);
+    background-size: cover;
+    
+  }
+/*Lado izq*/
+  #pokemon-info {
+    margin-left: -2%;
+    width: 100px;
+    height: 200px;
+    text-align: center;
+  }
+
+  /*Lado derecho*/
+#pokemon-list {
+  margin-top: 10%;
+  margin-left: 40%;
+  width: 150px;
+  height: 200px;
+  font-size: 18px;
+  /* Scroll - Lo he puesto para que los nombres no se me desborden y permanezcan en la caja */
+  overflow-y: auto;
+}
+
+#pokemon-info img {
+  margin-left: 100%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 45%;
+  background-color: #E1ECF3;
+}
+
+#pokemon-description {
+  margin-top: 3%;
+  margin-left: 100%;
+  width: 230px;
+  height: 90px;
+  background-color: #E1ECF3;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  padding: 2px;
+  font-size: 15px;
+ 
+}
+
   
 }
